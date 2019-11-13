@@ -7,7 +7,7 @@
 
 <body>
 @include('layouts._header')
-<?php $url = parse_url(getenv("DATABASE_URL")); ?>
+<?php print_r ($url = parse_url(getenv("DATABASE_URL"))); ?>
 <div class="container">
   <div class="offset-md-1 col-md-10">
     @include('shared._messages')
