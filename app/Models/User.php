@@ -38,6 +38,11 @@ class User extends Authenticatable
         });
     }
 
+    public function statuses()
+    {
+        return $this->hasMany(Status::class);
+    }
+
     /**
      * The attributes that should be cast to native types.
      *
