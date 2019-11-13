@@ -21,4 +21,5 @@ class StaticPagesController extends Controller
         return view('static_pages/about');
     }
 }
-下面这行代码，将会渲染
+
+
